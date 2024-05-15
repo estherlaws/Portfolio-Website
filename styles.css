@@ -104,7 +104,6 @@ footer a {
 
 .container {
     backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.25);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
@@ -115,25 +114,71 @@ footer a {
     justify-content: center;
     text-align: center;
     width: 450px;
-    margin-top: 40px;
+    height: 700px;
+    margin-top: 20px;
+    box-sizing: border-box;
 }
 
 .wrapper {
-    width: 80%;
+    width: 70%;
 }
 
 .banner-image {
     background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 200px;
     width: 100%;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.255);
 }
 
+.h1 {
+    font-family: "Oswald", sans-serif;
+    color: rgba(255, 255, 255, 0.98);
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language p {
+    padding: 10px 24px;
+    border-radius: 24px;
+    border-width: 1px;
+    margin: 15px 5px;
+}
+
+.html {
+    background: #FC490B;;
+    color: #FFFFFF;
+}
+
+.css {
+    background: #264DE4;
+}
+
+.js {
+    background: #F7DF17;
+}
+
+.python {
+    background: linear-gradient(to right, #3a76a6, #ffe66c);
+}
+
+.django {
+    background: #092E20;
+}
+
 .button-wrapper {
-    margin-top: 48px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -163,16 +208,6 @@ footer a {
     border-color: rgba(255, 255, 255, 0.9);
     filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
     transition: all .3s ease;
-}
-
-.h1 {
-    font-family: "Oswald", sans-serif;
-    color: rgba(255, 255, 255, 0.98);
-    text-transform: uppercase;
-    font-size: 2.4rem;
-    margin: 0;
-    padding-top: 20px;
-    text-align: center;
 }
 
 .outline {

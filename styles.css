@@ -131,8 +131,7 @@ footer a {
     box-shadow: 0 0 1px #00E8FF;
 }
 
-.banner-image {
-    background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+.banner-image img {
     background-position: center;
     background-size: cover;
     height: 250px;
@@ -146,7 +145,14 @@ footer a {
     text-transform: uppercase;
     font-size: 2.4rem;
     margin: 0;
-    padding-top: 25px;
+    padding-top: 20px;
+}
+
+.h1-about-text {
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    font-size: 2.4rem;
+    text-align: center;
 }
 
 .language {
@@ -173,15 +179,27 @@ footer a {
 }
 
 .js {
-    background: #F7DF17;
+    background: #DDB700;
 }
 
 .python {
-    background: linear-gradient(to right, #3a76a6, #ffe66c);
+    background: linear-gradient(to right, #336D9D, #FFD640);
 }
 
 .django {
     background: #092E20;
+}
+
+.node {
+    background: #529F41;
+}
+
+.react {
+    background: #087EA4;
+}
+
+.tkinter {
+    background: #FD0000;
 }
 
 .button-wrapper {
@@ -237,13 +255,13 @@ footer a {
 }
 
 .intro-text {
-    font-family: "Oswald", sans-serif;
     position: absolute;
     color: #FFFFFF;
     font-size: 40px;
-    margin-top: 225px;
-    width: 35%;
-    left: 930px;
+    top: 42%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .memoji-wrapper {
@@ -252,7 +270,6 @@ footer a {
     justify-content: flex-end;
     gap: 20px;
     overflow: hidden;
-    margin-top: 20px;
 }
 
 .memoji {
@@ -263,16 +280,26 @@ footer a {
     z-index: 1;
 }
 
+.social {
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
 .spacing {
+    padding: 80px;
+}
+
+.spacing-text {
     height: 65%;
-    width: 60%;
-    position: relative;
+    width: 35%;
+    position: absolute;
     z-index: 1;
-    padding: 20px;
-    font-size: 30px;
-    font-style: italic;
-    margin-top: 5%;
-    padding-left: 20%;
+    color: #FFFFFF;
+    font-size: 40px;
+    top: 48%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .glowing-divider {
@@ -289,11 +316,21 @@ footer a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(ellipse, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
     top: 0;
     left: 0;
     animation: glow 2s infinite alternate;
 }
+
+.about-text {
+    color: white;
+    box-shadow: 1px 1px 10px #00E8FF;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    font-size: 25px;
+  }
 
 @keyframes glow {
     0% {

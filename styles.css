@@ -272,6 +272,7 @@ footer a {
     position: absolute;
     color: #FFFFFF;
     font-size: 40px;
+    top: 42%;
     top: 41.25%;
     left: 0.5px;
     z-index: 1;
@@ -279,7 +280,7 @@ footer a {
 
 .memoji-wrapper {
     position: absolute;
-    top: 35px;
+    top: 5%;
     right: 0;
     display: flex;
     flex-wrap: wrap;
@@ -298,9 +299,13 @@ footer a {
 
 .social {
     display: grid;
+    gap: 45px;
+    padding-top: 23px;
+    display: grid;
     gap: 47px;
     padding-top: 23px;
     padding-left: 65px;
+    width: 15%;
     width: 15%;
 }
 

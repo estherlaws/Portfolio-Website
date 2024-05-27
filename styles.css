@@ -154,10 +154,11 @@ footer a {
     text-align: center;
 }
 
-.h1-experience, .h1-skills {
+.h1-experience {
     color: #FFFFFF;
     font-size: 60px;
     text-align: center;
+    margin: 10px;
 }
 
 .h1-skills {
@@ -317,7 +318,7 @@ footer a {
     height: auto;
     width: auto;
     position: absolute;
-    top: 55px;
+    top: 59px;
     left: 20%;
     z-index: 1;
     color: #FFFFFF;
@@ -350,7 +351,15 @@ footer a {
     font-size: 30px;
     color: #FFFFFF;
     margin: 0;
-    padding-bottom: 10px
+    padding-bottom: 15px
+}
+
+.summary {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 .progress-container {
@@ -365,6 +374,14 @@ footer a {
     border-radius: 0;
     display: flex;
     align-items: center;
+}
+
+.divider {
+    margin: auto;
+    padding: 1px 15px;
+    width: 90%;
+    box-shadow: 1px 1px 4px #00E8FF;
+    border-radius: 10px;
 }
 
 .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4, .progress-bar5, .progress-bar6, .progress-bar7 {
